@@ -1,0 +1,70 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #424242;
+}
+
+/*********************** NAVEGACION ***********************/
+
+.navBar {
+  color: #919191;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #636363;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBar ul {
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.navBar ul li {
+  width: 150px;
+  height: 85px;
+  font-weight: bold;
+  font-size: 18px;
+  display: grid;
+  padding: 15px 5px;
+  justify-items: center;
+}
+
+.navInicio {
+  border-bottom: 5px solid #919191;
+  border-bottom-left-radius: 5px;
+}
+
+.navPokedex {
+  border-bottom: 5px solid #E3350D;
+  border-bottom-right-radius: 5px;
+}
+
+.navInicio:hover {
+  transition: background-color 0.3s;
+  background-color: #919191;
+  cursor: pointer;
+  color: white;
+}
+
+.navPokedex:hover {
+  transition: background-color 0.3s;
+  background-color: #E3350D;
+  cursor: pointer;
+  color: white;
+}
+
+.backgound-custon-one {
+  background-color: rgb(0, 0, 0);
+  background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+}
+
+.backgound-custon-two {
+  background-color: white;
+  background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+  padding: 0px 180px;
+}

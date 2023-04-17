@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://assets.pokemon.com/static2/_ui/img/favicon.ico"/>
+
+    <title>Pokémon | Pokédex</title>
+
+    <!-- TAILWINDCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/3bd188dac5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navBar">
+        <nav>
+            <ul>
+                <li class="navInicio" onclick="cambiarPaginaInicio()"><i class="fa-solid fa-house mr-2 text-2xl"></i>Inicio</li>
+                <li class="navPokedex text-white" style="background-color: #E3350D;"><img src="https://assets.pokemon.com/static2/_ui/img/favicon.ico"/>Pokédex</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="px-10 backgound-custon-one">
+        <div class="backgound-custon-two">
+            <div class="bg-white grid grid-cols-4 px-5 py-10" id="contenedorPokemon">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
